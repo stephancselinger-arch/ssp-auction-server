@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  ssp:
+    build: .
+    ports:
+      - "8004:8004"
+    environment:
+      - ENV=development
+    volumes:
+      - .:/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8004 --reload
