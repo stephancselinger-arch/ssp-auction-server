@@ -208,3 +208,5 @@ pytest tests/ -v
 - **Pydantic v2** — OpenRTB model validation
 - **httpx** — async DSP bid fan-out with timeout
 - Python 3.12+
+
+<!-- Last updated: 2026-05-21 -->
